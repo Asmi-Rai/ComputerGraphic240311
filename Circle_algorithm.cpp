@@ -18,6 +18,7 @@ int main()
     printf("Enter the radius of the circle :");
     scanf("%d",&R);
     draw_circle(xc,yc,R);
+    outtextxy(xc-25,yc,"Asmita Rai");
     getch();
     closegraph();
     return 0;
