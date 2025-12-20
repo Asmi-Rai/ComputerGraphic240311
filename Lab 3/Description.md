@@ -1,0 +1,2 @@
+Midpoint Circle Algorithm:
+The Midpoint Circle Algorithm is an efficient raster graphics algorithm used to draw a circle by determining the next pixel position based on a midpoint decision parameter. It starts from the top of the circle and calculates points for one octant using integer arithmetic, then uses symmetry to plot the remaining points in the other seven octants. This reduces computational complexity and avoids floating-point calculations, making it fast and accurate for computer graphics applications.
