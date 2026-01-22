@@ -71,6 +71,9 @@ void disp(){
 }
 void coordinates(int rx,int ry){
 	char coord[20];
+	//Center
+	sprintf(coord,"(%d,%d)",xc,yc);
+	outtextxy(xc,yc,coord);
     //At x=0
     sprintf(coord,"(%d,%d)",xc,yc+ry);
     outtextxy(xc,yc+ry,coord);
@@ -86,7 +89,7 @@ void coordinates(int rx,int ry){
 }
 void ellipseType(int rx,int ry){
 	if(rx>ry)
-		outtextxy(xc-50,yc+ry+40,"Horinzotal ellipse");
+		outtextxy(xc-50,yc+ry+40,"Horizontal ellipse");
 	else
 	outtextxy(xc-50,yc+ry+40,"Vertical ellipse");
 }
