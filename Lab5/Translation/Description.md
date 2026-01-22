@@ -1,0 +1,2 @@
+**Translation:**
+Translation in graphics is the process of shifting an object from one position to another by adding a fixed distance to its coordinates, without changing its size, shape, or orientation.
